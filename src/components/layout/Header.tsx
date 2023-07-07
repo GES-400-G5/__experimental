@@ -15,7 +15,10 @@ const TopNav = (): JSX.Element => {
           />
         </div>
         <div className="items-center space-x-4 hidden lg:flex">
-          <a href="/__experimental/" className="text-base md:text-lg font-medium text-blue-950 hover:text-blue-700">
+          <a
+            href="/__experimental/"
+            className="text-base md:text-lg font-medium text-blue-950 hover:text-blue-700"
+          >
             Home
           </a>
           <a
@@ -24,7 +27,10 @@ const TopNav = (): JSX.Element => {
           >
             About
           </a>
-          <a href="/__experimental/team" className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700">
+          <a
+            href="/__experimental/team"
+            className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700"
+          >
             Meet the team
           </a>
         </div>
@@ -41,7 +47,12 @@ const TopNav = (): JSX.Element => {
               viewBox="0 0 24 24"
               stroke="currentColor"
             >
-              <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                d="M4 6h16M4 12h8m-8 6h16"
+              />
             </svg>
           </button>
 

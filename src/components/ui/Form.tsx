@@ -41,7 +41,9 @@ const Form = () => {
               type="text"
               id="mat_no"
               placeholder="enter your mat-no"
-              className={`input input-bordered w-full ${errors.id && "border-red-500"}`}
+              className={`input input-bordered w-full ${
+                errors.id && "border-red-500"
+              }`}
               {...register("id", { required: true, pattern: regex })}
             />
             {errors.id && (

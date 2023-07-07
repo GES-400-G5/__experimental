@@ -7,17 +7,26 @@ const Footer = (): JSX.Element => {
           <img className="w-16 h-16" src="/__experimental/assets/NNL 1.png" />
         </div>
         <div className="text-center md:text-left text-neutral-600 text-sm md:text-[18px] md:w-96 font-medium mb-4 md:mb-0">
-          Department of Computer Science, University of Port Harcourt, East/West Road, PMB 5323 Choba, Rivers State,
-          Nigeria.
+          Department of Computer Science, University of Port Harcourt, East/West
+          Road, PMB 5323 Choba, Rivers State, Nigeria.
         </div>
         <div className="flex justify-center items-center space-x-4">
-          <a href="/__experimental" className="text-neutral-600 text-[18px] font-medium hover:text-blue-500">
+          <a
+            href="/__experimental"
+            className="text-neutral-600 text-[18px] font-medium hover:text-blue-500"
+          >
             Home
           </a>
-          <a href="/__experimental/about" className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500">
+          <a
+            href="/__experimental/about"
+            className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500"
+          >
             About
           </a>
-          <a href="/__experimental/team" className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500">
+          <a
+            href="/__experimental/team"
+            className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500"
+          >
             Meet the team
           </a>
         </div>
@@ -29,7 +38,8 @@ const Footer = (): JSX.Element => {
             <img src="/__experimental/assets/CS Resourcify logo grey.png" />
           </div>
           <div className="text-center text-neutral-600 text-[18px] font-medium">
-            Copyright © 2023 (U2018 - Group Computer Science). All rights reserved.
+            Copyright © 2023 (U2018 - Group Computer Science). All rights
+            reserved.
           </div>
         </div>
       </div>

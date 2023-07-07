@@ -76,7 +76,8 @@ const TeamG5 = () => {
           </div>
           <div className="w-[363px] md:w-full justify-start items-start gap-2.5 inline-flex">
             <div className="grow shrink basis-0 text-neutral-600 text-[16px] md:text-[24px]  font-medium">
-              Behold the brains behind this amazing idea - U2018 CSC (Group 5) members
+              Behold the brains behind this amazing idea - U2018 CSC (Group 5)
+              members
             </div>
           </div>
         </div>
@@ -89,7 +90,9 @@ const TeamG5 = () => {
                 src={team[0].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[0].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[0].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -97,7 +100,9 @@ const TeamG5 = () => {
                 src={team[1].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[1].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[1].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -105,7 +110,9 @@ const TeamG5 = () => {
                 src={team[2].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[2].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[2].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -113,7 +120,9 @@ const TeamG5 = () => {
                 src={team[3].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[3].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[3].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -121,7 +130,9 @@ const TeamG5 = () => {
                 src={team[4].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[4].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[4].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -129,7 +140,9 @@ const TeamG5 = () => {
                 src={team[5].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[5].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[5].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -137,7 +150,9 @@ const TeamG5 = () => {
                 src={team[6].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[6].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[6].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -145,7 +160,9 @@ const TeamG5 = () => {
                 src={team[7].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[7].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[7].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -153,7 +170,9 @@ const TeamG5 = () => {
                 src={team[8].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[8].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[8].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -161,7 +180,9 @@ const TeamG5 = () => {
                 src={team[9].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[9].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[9].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -169,7 +190,9 @@ const TeamG5 = () => {
                 src={team[10].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[10].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[10].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -177,7 +200,9 @@ const TeamG5 = () => {
                 src={team[11].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[11].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[11].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -185,7 +210,9 @@ const TeamG5 = () => {
                 src={team[12].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[12].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[12].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -193,7 +220,9 @@ const TeamG5 = () => {
                 src={team[13].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[13].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[13].name}
+              </h2>
             </div>
             <div className="flex flex-col items-center space-y-4">
               <img
@@ -201,7 +230,9 @@ const TeamG5 = () => {
                 src={team[14].image}
                 alt="Person"
               />
-              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">{team[14].name}</h2>
+              <h2 className="text-blue-950 text-[11px] md:text-[18px] font-bold text-center">
+                {team[14].name}
+              </h2>
             </div>
           </div>
         </div>

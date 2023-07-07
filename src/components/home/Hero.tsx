@@ -12,7 +12,8 @@ const Hero = (): JSX.Element => {
           </div>
           <div className="justify-start items-start gap-2.5 inline-flex">
             <div className="w-[356px] md:w-[556px] text-sky-500 text-[18px] md:text-[24px] font-medium">
-              Discover Vast Array of Resources for Uniport Computer Science Students.
+              Discover Vast Array of Resources for Uniport Computer Science
+              Students.
             </div>
           </div>
           <div className="px-2 py-2 bg-blue-950 rounded justify-center items-center gap-2.5 inline-flex">
