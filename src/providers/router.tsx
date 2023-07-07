@@ -10,7 +10,8 @@ const router = createBrowserRouter(
       <Route path="/__experimental/about/" element={<About />} />
       <Route path="/__experimental/team/" element={<Team />} />
     </Route>
-  )
+  ),
+  { basename: import.meta.env.DEV ? "/" : "/__experimental/" }
 );
 
 export const RouteProvider = () => {

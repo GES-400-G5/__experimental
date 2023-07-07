@@ -56,7 +56,7 @@ const Form = () => {
             <div className="w-full h-11 p-2.5 bg-blue-950 rounded justify-center items-center gap-2.5 inline-flex mt-4">
               <button
                 type={"submit"}
-                className="grow shrink basis-0 h-6 text-center text-white text-[18px] font-medium"
+                className="grow shrink basis-0 h-6 text-center text-white text-[18px] satoshi-medium"
               >
                 Access resources
               </button>
