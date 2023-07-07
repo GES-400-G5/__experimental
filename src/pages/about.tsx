@@ -1,7 +1,12 @@
-import React from "react";
+import AboutUs from "../components/home/About";
+import Action from "../components/layout/wrappers/Action";
 
 const About = () => {
-  return <div>About</div>;
+  return (
+    <Action>
+      <AboutUs />
+    </Action>
+  );
 };
 
 export default About;
