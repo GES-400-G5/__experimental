@@ -13,7 +13,7 @@ const Button = ({ className }: { className: string }) => {
           Go To Resources
         </button>
       ) : (
-        <label className={className} htmlFor="authentication">
+        <label className={`btn btn-ghost capitalize ${className}`} htmlFor="authentication">
           Access resources
         </label>
       )}

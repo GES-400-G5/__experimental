@@ -5,7 +5,7 @@ const Section = (): JSX.Element => {
     <div className="w-full min-h-[606px] relative bg-blue-950">
       <div
         className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: "url('/src/assets/unsplash_2JIvboGLeho.png')" }}
+        style={{ backgroundImage: "url('/__experimental/assets/unsplash_2JIvboGLeho.png')" }}
       ></div>
       <div className="absolute inset-0 bg-blue-950 opacity-90"></div>
       <div className="absolute inset-0 flex flex-col justify-center items-center px-4 gap-10">

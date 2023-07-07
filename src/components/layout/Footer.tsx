@@ -3,8 +3,8 @@ const Footer = (): JSX.Element => {
     <footer className="w-full md:h-[367px] h-[654px] px-6 py-24">
       <div className="max-w-[1093px] mx-auto flex flex-col md:flex-row gap-6 justify-between items-center">
         <div className="flex justify-center md:justify-start items-center mb-4 md:mb-0">
-          <img className="w-16 h-16 mr-4" src="/assets/Uniport logo 1.png" />
-          <img className="w-16 h-16" src="/assets/NNL 1.png" />
+          <img className="w-16 h-16 mr-4" src="/__experimental/assets/Uniport logo 1.png" />
+          <img className="w-16 h-16" src="/__experimental/assets/NNL 1.png" />
         </div>
         <div className="text-center md:text-left text-neutral-600 text-sm md:text-[18px] md:w-96 font-medium mb-4 md:mb-0">
           Department of Computer Science, University of Port Harcourt, East/West
@@ -35,7 +35,7 @@ const Footer = (): JSX.Element => {
         <div className="border-t border-gray-300 border w-full mb-2" />
         <div className="mb-2 flex flex-col md:flex-row justify-between items-center gap-10">
           <div>
-            <img src="/assets/CS Resourcify logo grey.png" />
+            <img src="/__experimental/assets/CS Resourcify logo grey.png" />
           </div>
           <div className="text-center text-neutral-600 text-[18px] font-medium">
             Copyright © 2023 (U2018 - Group Computer Science). All rights

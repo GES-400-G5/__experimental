@@ -10,10 +10,7 @@ const Features = (): JSX.Element => {
         <div className="flex flex-col md:flex-row justify-center items-center space-y-8 md:space-y-0 md:space-x-8">
           <div className="flex flex-col items-start">
             <div className="w-16 h-16 rounded-full bg-gray-100 flex justify-center items-center mb-4">
-              <img
-                className="w-12 h-12"
-                src="/assets/icons8-online-library-96 1.png"
-              />
+              <img className="w-12 h-12" src="/__experimental/assets/icons8-online-library-96 1.png" />
             </div>
             <div className="text-lg font-bold mb-2">
               Comprehensive Resources
@@ -25,10 +22,7 @@ const Features = (): JSX.Element => {
           </div>
           <div className="flex flex-col items-start">
             <div className="w-16 h-16 rounded-full bg-gray-100 flex justify-center items-center mb-4">
-              <img
-                className="w-12 h-12"
-                src="/assets/icons8-diploma-96 1.png"
-              />
+              <img className="w-12 h-12" src="/__experimental/assets/icons8-diploma-96 1.png" />
             </div>
             <div className="text-lg font-bold mb-2">Academic Excellence</div>
             <div className="md:text-[18px] text-[16px] md:text-base text-gray-600">
@@ -38,10 +32,7 @@ const Features = (): JSX.Element => {
           </div>
           <div className="flex flex-col items-start">
             <div className="w-16 h-16 rounded-full bg-gray-100 flex justify-center items-center mb-4">
-              <img
-                className="w-12 h-12"
-                src="/assets/icons8-relaxed-96 1.png"
-              />
+              <img className="w-12 h-12" src="/__experimental/assets/icons8-relaxed-96 1.png" />
             </div>
             <div className="text-lg font-bold mb-2">Accessible</div>
             <div className="md:text-[18px] text-[16px] md:text-base text-gray-600">
