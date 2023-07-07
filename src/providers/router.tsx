@@ -5,13 +5,13 @@ import Team from "../pages/team";
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path="/__experimental/">
+    <Route path="/">
       <Route index element={<Landing />} />
-      <Route path="/__experimental/about/" element={<About />} />
-      <Route path="/__experimental/team/" element={<Team />} />
+      <Route path="/about" element={<About />} />
+      <Route path="/team" element={<Team />} />
     </Route>
   ),
-  { basename: import.meta.env.DEV ? "/" : "/__experimental/" }
+  { basename: "/__experimental/" }
 );
 
 export const RouteProvider = () => {
