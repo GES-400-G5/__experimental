@@ -12,7 +12,8 @@ const Hero = (): JSX.Element => {
           </div>
           <div className="justify-start items-start gap-2.5 inline-flex">
             <div className="w-[356px] md:w-[556px] text-sky-500 text-[18px] md:text-[24px] font-medium">
-              Discover Vast Array of Resources for Uniport Computer Science Students.
+              Discover Vast Array of Resources for Uniport Computer Science
+              Students.
             </div>
           </div>
           <div className="px-[25px] py-5 bg-blue-950 rounded justify-center items-center gap-2.5 inline-flex">
@@ -26,7 +27,7 @@ const Hero = (): JSX.Element => {
             <div className=" absolute top-[60.44px] ">
               <img
                 className="w-[598.35px] md:w-[756.69px] rounded-full"
-                src="/src/assets/study-group-african-people 1.png"
+                src="/assets/study-group-african-people 1.png"
               />
             </div>
           </div>
