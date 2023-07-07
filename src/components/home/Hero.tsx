@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 const Hero = (): JSX.Element => {
   return (
     <div className="w-full pt-8 px-8">
@@ -14,7 +16,7 @@ const Hero = (): JSX.Element => {
             </div>
           </div>
           <div className="px-[25px] py-5 bg-blue-950 rounded justify-center items-center gap-2.5 inline-flex">
-            <div className="text-white text-[18px]   font-medium">Access resources</div>
+            <Button className="text-white text-[18px]   font-medium" />
           </div>
         </div>
         <div>

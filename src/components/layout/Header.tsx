@@ -15,13 +15,16 @@ const TopNav = (): JSX.Element => {
           />
         </div>
         <div className="items-center space-x-4 hidden lg:flex">
-          <a href="#" className="text-base md:text-lg font-medium text-blue-950 hover:text-blue-700">
+          <a href="/__experimental/" className="text-base md:text-lg font-medium text-blue-950 hover:text-blue-700">
             Home
           </a>
-          <a href="#" className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700">
+          <a
+            href="/__experimental/about/"
+            className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700"
+          >
             About
           </a>
-          <a href="#" className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700">
+          <a href="/__experimental/team" className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700">
             Meet the team
           </a>
         </div>

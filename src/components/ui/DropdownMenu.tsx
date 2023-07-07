@@ -18,15 +18,21 @@ const DropdownMenu = ({ close }: { close: Dispatch<SetStateAction<boolean>> }) =
       </div>
       <div className="left-[63px] top-[83px] absolute flex-col justify-center items-center gap-6 inline-flex">
         <div className="p-2.5 justify-center items-center gap-2.5 inline-flex">
-          <div className="text-sky-500 text-[18px] font-medium">Home</div>
+          <a href="/__experimental/" className="text-sky-500 text-[18px] font-medium">
+            Home
+          </a>
         </div>
         <div className="w-[117px] h-[0px] border border-neutral-600 border-opacity-20"></div>
         <div className="p-2.5 justify-center items-center gap-2.5 inline-flex">
-          <div className="text-neutral-600 text-[18px] font-medium">About</div>
+          <a href="/__experimental/about" className="text-neutral-600 text-[18px] font-medium">
+            About
+          </a>
         </div>
         <div className="w-[117px] h-[0px] border border-neutral-600 border-opacity-20"></div>
         <div className="p-2.5 justify-center items-center gap-2.5 inline-flex">
-          <div className="text-neutral-600 text-[18px] font-medium">Meet the team</div>
+          <a href="/__experimental/team" className="text-neutral-600 text-[18px] font-medium">
+            Meet the team
+          </a>
         </div>
       </div>
     </div>

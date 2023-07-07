@@ -11,13 +11,13 @@ const Footer = (): JSX.Element => {
           Nigeria.
         </div>
         <div className="flex justify-center items-center space-x-4">
-          <a href="#" className="text-neutral-600 text-[18px] font-medium hover:text-blue-500">
+          <a href="/__experimental" className="text-neutral-600 text-[18px] font-medium hover:text-blue-500">
             Home
           </a>
-          <a href="#" className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500">
+          <a href="/__experimental/about" className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500">
             About
           </a>
-          <a href="#" className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500">
+          <a href="/__experimental/team" className=" text-neutral-600 text-[18px] font-medium hover:text-blue-500">
             Meet the team
           </a>
         </div>

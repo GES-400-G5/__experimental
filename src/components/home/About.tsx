@@ -29,9 +29,12 @@ const AboutUs = () => {
             your one-stop-shop for all your computer science academic resources.
           </p>
         </div>
-        <button className="w-[200px] h-16 px-[30px] py-5 rounded bg-blue-950 text-white text-[18px] font-medium hover:bg-blue-700 justify-center items-center gap-2.5 inline-flex">
+        <a
+          href="/__experimental/team"
+          className="w-[200px] h-16 px-[30px] py-5 rounded bg-blue-950 text-white text-[18px] font-medium hover:bg-blue-700 justify-center items-center gap-2.5 inline-flex"
+        >
           Meet the team
-        </button>
+        </a>
       </div>
     </div>
   );

@@ -1,3 +1,5 @@
+import Button from "../ui/Button";
+
 const Section = (): JSX.Element => {
   return (
     <div className="w-full min-h-[606px] relative bg-blue-950">
@@ -11,9 +13,7 @@ const Section = (): JSX.Element => {
           Embark on a transformative educational journey. Gain access to Computer Science resources and enjoy learning
           on the go, and get prepared to shape a brighter future in the world of computer science.
         </div>
-        <button className="px-6 py-3 rounded border border-white text-white text-base md:text-lg font-medium hover:bg-white hover:text-blue-950">
-          Access resources
-        </button>
+        <Button className="px-6 py-3 rounded border border-white text-white text-base md:text-lg font-medium hover:bg-white hover:text-blue-950" />
       </div>
     </div>
   );

@@ -67,7 +67,12 @@ const TeamG5 = () => {
       <div className="flex flex-col justify-center items-center">
         <div className="w-[364px] h-[130px] md:w-[1020px] md:h-[200px] flex-col justify-start items-start gap-5 inline-flex">
           <div className="w-[363px] md:self-stretch justify-start items-center gap-2.5 inline-flex">
-            <div className="grow shrink basis-0 text-blue-950 text-[28px] md:text-[46px] font-bold">Meet the team</div>
+            <a
+              href="/__experimental/team"
+              className="grow shrink basis-0 text-blue-950 text-[28px] md:text-[46px] font-bold"
+            >
+              Meet the team
+            </a>
           </div>
           <div className="w-[363px] md:w-full justify-start items-start gap-2.5 inline-flex">
             <div className="grow shrink basis-0 text-neutral-600 text-[16px] md:text-[24px]  font-medium">
