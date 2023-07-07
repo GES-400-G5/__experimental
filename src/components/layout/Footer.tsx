@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const Footer = (): JSX.Element => {
   return (
     <footer className="w-full md:h-[367px] h-[654px] px-6 py-24">
@@ -11,15 +13,15 @@ const Footer = (): JSX.Element => {
           Nigeria.
         </div>
         <div className="flex justify-center items-center space-x-4">
-          <a href="/__experimental" className="text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
+          <Link to="/" className="text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
             Home
-          </a>
-          <a href="/__experimental/about" className=" text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
+          </Link>
+          <Link to="/about" className=" text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
             About
-          </a>
-          <a href="/__experimental/team" className=" text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
+          </Link>
+          <Link to="/team" className=" text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
             Meet the team
-          </a>
+          </Link>
         </div>
       </div>
       <div className="max-w-[1093px] mx-auto mt-8 pt-4 flex flex-col justify-between items-center gap-7">
