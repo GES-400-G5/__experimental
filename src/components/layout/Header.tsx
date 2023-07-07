@@ -25,9 +25,12 @@ const TopNav = (): JSX.Element => {
           </a>
         </div>
         <div className="items-center hidden lg:flex">
-          <button className="w-[200px] h-11 px-5 py-2.5 rounded border border-blue-950 text-blue-950 text-[18px] font-medium hover:bg-blue-950 hover:text-white justify-center items-center gap-2.5 inline-flex">
+          <label
+            className="w-[200px] h-11 px-5 py-2.5 rounded border border-blue-950 text-blue-950 text-[18px] font-medium hover:bg-blue-950 hover:text-white justify-center items-center gap-2.5 inline-flex"
+            htmlFor="authentication"
+          >
             Access resources
-          </button>
+          </label>
         </div>
         <div className="lg:hidden">
           <button onClick={() => setOpen(!open)} className="inline-flex">

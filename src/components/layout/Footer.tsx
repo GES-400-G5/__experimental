@@ -22,13 +22,15 @@ const Footer = (): JSX.Element => {
           </a>
         </div>
       </div>
-      <div className="max-w-[1093px] mx-auto mt-8 pt-4 flex flex-col md:flex-row justify-between items-center gap-7">
+      <div className="max-w-[1093px] mx-auto mt-8 pt-4 flex flex-col justify-between items-center gap-7">
         <div className="border-t border-gray-300 border w-full mb-2" />
-        <div className="mb-2">
-          <img src="/src/assets/CS Resourcify logo grey.png" />
-        </div>
-        <div className="text-center text-neutral-600 text-[18px] font-medium">
-          Copyright © 2023 (U2018 - Group Computer Science). All rights reserved.
+        <div className="mb-2 flex flex-col md:flex-row justify-between items-center gap-10">
+          <div>
+            <img src="/src/assets/CS Resourcify logo grey.png" />
+          </div>
+          <div className="text-center text-neutral-600 text-[18px] font-medium">
+            Copyright © 2023 (U2018 - Group Computer Science). All rights reserved.
+          </div>
         </div>
       </div>
     </footer>
