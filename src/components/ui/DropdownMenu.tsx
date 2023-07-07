@@ -1,4 +1,5 @@
 import { Dispatch, SetStateAction } from "react";
+import { Link } from "react-router-dom";
 
 const DropdownMenu = ({ close }: { close: Dispatch<SetStateAction<boolean>> }) => {
   return (
@@ -18,21 +19,21 @@ const DropdownMenu = ({ close }: { close: Dispatch<SetStateAction<boolean>> }) =
       </div>
       <div className="left-[63px] top-[83px] absolute flex-col justify-center items-center gap-6 inline-flex">
         <div className="p-2.5 justify-center items-center gap-2.5 inline-flex">
-          <a href="/__experimental/" className="text-sky-500 text-[18px] satoshi-medium">
+          <Link to="/" className="text-sky-500 text-[18px] satoshi-medium hover:text-blue-500">
             Home
-          </a>
+          </Link>
         </div>
         <div className="w-[117px] h-[0px] border border-neutral-600 border-opacity-20"></div>
         <div className="p-2.5 justify-center items-center gap-2.5 inline-flex">
-          <a href="/__experimental/about" className="text-neutral-600 text-[18px] satoshi-medium">
+          <Link to="/about" className="text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
             About
-          </a>
+          </Link>
         </div>
         <div className="w-[117px] h-[0px] border border-neutral-600 border-opacity-20"></div>
         <div className="p-2.5 justify-center items-center gap-2.5 inline-flex">
-          <a href="/__experimental/team" className="text-neutral-600 text-[18px] satoshi-medium">
-            Meet the team
-          </a>
+          <Link to="/team" className=" text-neutral-600 text-[18px] satoshi-medium hover:text-blue-500">
+            Team
+          </Link>
         </div>
       </div>
     </div>

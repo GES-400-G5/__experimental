@@ -1,6 +1,7 @@
 import { useState } from "react";
 import DropdownMenu from "../ui/DropdownMenu";
 import Button from "../ui/Button";
+import { Link } from "react-router-dom";
 
 const TopNav = (): JSX.Element => {
   const [open, setOpen] = useState(false);
@@ -15,21 +16,15 @@ const TopNav = (): JSX.Element => {
           />
         </div>
         <div className="items-center space-x-4 hidden lg:flex">
-          <a href="/__experimental/" className="text-base md:text-lg satoshi-medium text-blue-950 hover:text-blue-700">
+          <Link to="/" className="text-base md:text-lg satoshi-medium text-gray-600 hover:text-blue-700">
             Home
-          </a>
-          <a
-            href="/__experimental/about/"
-            className="text-base md:text-lg satoshi-medium text-gray-600 hover:text-blue-700"
-          >
+          </Link>
+          <Link to="/about" className="text-base md:text-lg satoshi-medium text-gray-600 hover:text-blue-700">
             About
-          </a>
-          <a
-            href="/__experimental/team"
-            className="text-base md:text-lg satoshi-medium text-gray-600 hover:text-blue-700"
-          >
-            Meet the team
-          </a>
+          </Link>
+          <Link to="/team" className="text-base md:text-lg satoshi-medium text-gray-600 hover:text-blue-700">
+            Team
+          </Link>
         </div>
         <div className="items-center hidden lg:flex">
           <Button className="w-[200px] h-11 px-5 py-2.5 rounded border border-blue-950 text-blue-950 text-[18px] satoshi-medium hover:bg-blue-950 hover:text-white justify-center items-center gap-2.5 inline-flex" />

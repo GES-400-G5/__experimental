@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const AboutUs = () => {
   return (
     <div className="w-full md:pt-20 pt-0">
@@ -29,12 +31,13 @@ const AboutUs = () => {
             your one-stop-shop for all your computer science academic resources.
           </p>
         </div>
-        <a
-          href="/__experimental/team"
+
+        <Link
+          to="/team"
           className="w-[200px] h-16 px-[30px] py-5 rounded bg-blue-950 text-white text-[18px] satoshi-medium hover:bg-blue-700 justify-center items-center gap-2.5 inline-flex"
         >
           Meet the team
-        </a>
+        </Link>
       </div>
     </div>
   );
