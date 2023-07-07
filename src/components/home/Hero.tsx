@@ -15,7 +15,7 @@ const Hero = (): JSX.Element => {
               Discover Vast Array of Resources for Uniport Computer Science Students.
             </div>
           </div>
-          <div className="px-[25px] py-5 bg-blue-950 rounded justify-center items-center gap-2.5 inline-flex">
+          <div className="px-2 py-2 bg-blue-950 rounded justify-center items-center gap-2.5 inline-flex">
             <Button className="text-white text-[18px]   font-medium" />
           </div>
         </div>
