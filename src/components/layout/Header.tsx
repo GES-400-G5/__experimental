@@ -10,7 +10,7 @@ const TopNav = (): JSX.Element => {
         <div className="flex items-center">
           <img
             className="w-[137px] h-[21px] md:w-[208.21px] md:h-8"
-            src="/src/assets/CS Resourcify logo blue.png"
+            src="/__experimental/assets/CS Resourcify logo blue.png"
             alt="Logo"
           />
         </div>

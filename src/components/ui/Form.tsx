@@ -27,7 +27,7 @@ const Form = () => {
         <div className="self-stretch h-24 flex-col justify-start items-center gap-5 flex">
           <div className="flex-col justify-start items-center flex">
             <div className="p-2.5 flex-col justify-start items-start gap-2.5 flex">
-              <img className="w-[208.21px] h-8" src="/src/assets/CS Resourcify logo blue.png" />
+              <img className="w-[208.21px] h-8" src="/__experimental/assets/CS Resourcify logo blue.png" />
             </div>
             <div className="w-full h-[0px] border border-neutral-600 border-opacity-10"></div>
           </div>

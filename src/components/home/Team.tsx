@@ -1,23 +1,23 @@
 const team = [
   {
     name: "Peter Anyaogu",
-    image: "/src/assets/team/Peter Anyaogu.jpg",
+    image: "/__experimental/assets/team/Peter Anyaogu.jpg",
   },
   {
     name: "Ogbebor Doreen Unoma",
-    image: "/src/assets/team/Ogbebor Doreen Unoma.png",
+    image: "/__experimental/assets/team/Ogbebor Doreen Unoma.png",
   },
   {
     name: "Edirin Alison Eyuren",
-    image: "/src/assets/team/Edirin Alison Eyuren.jpg",
+    image: "/__experimental/assets/team/Edirin Alison Eyuren.jpg",
   },
   {
     name: "Okafor Lucy Chidiogo",
-    image: "/src/assets/team/Okafor Lucy chidiogo.jpg",
+    image: "/__experimental/assets/team/Okafor Lucy chidiogo.jpg",
   },
   {
     name: "Ibhaze Emmanuel Osamudiamen",
-    image: "/src/assets/team/Ibhaze Emmanuel Osamudiamen.jpg",
+    image: "/__experimental/assets/team/Ibhaze Emmanuel Osamudiamen.jpg",
   },
   {
     name: "Simon Rukevwe",
@@ -25,35 +25,35 @@ const team = [
   },
   {
     name: "Egbewole Ayotunde",
-    image: "/src/assets/team/Egbewole Ayotunde.jpg",
+    image: "/__experimental/assets/team/Egbewole Ayotunde.jpg",
   },
   {
     name: "Mela Winning",
-    image: "/src/assets/team/Mela Winning.jpg",
+    image: "/__experimental/assets/team/Mela Winning.jpg",
   },
   {
     name: "Ewokor Thankgod Eso",
-    image: "/src/assets/team/Ewokor Thankgod Eso.jpg",
+    image: "/__experimental/assets/team/Ewokor Thankgod Eso.jpg",
   },
   {
     name: "Godwin Alexander Ekainu",
-    image: "/src/assets/team/Godwin Alexander Ekainu.jpg",
+    image: "/__experimental/assets/team/Godwin Alexander Ekainu.jpg",
   },
   {
     name: "Nosa-Omoruyi Michael",
-    image: "/src/assets/team/Nosa-Omoruyi Michael.jpg",
+    image: "/__experimental/assets/team/Nosa-Omoruyi Michael.jpg",
   },
   {
     name: "Soprinye Geoffrey Blue-Jack",
-    image: "/src/assets/team/Soprinye Geoffrey Blue-Jack.jpg",
+    image: "/__experimental/assets/team/Soprinye Geoffrey Blue-Jack.jpg",
   },
   {
     name: "Ted-Umukoro Precious Oghenerioborie",
-    image: "/src/assets/team/Ted-Umukoro Precious Oghenerioborie.jpg",
+    image: "/__experimental/assets/team/Ted-Umukoro Precious Oghenerioborie.jpg",
   },
   {
     name: "Daemi T. Jack",
-    image: "/src/assets/team/Daemi T. Jack.jpeg",
+    image: "/__experimental/assets/team/Daemi T. Jack.jpeg",
   },
   {
     name: "",

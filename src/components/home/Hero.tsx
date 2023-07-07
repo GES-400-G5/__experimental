@@ -20,13 +20,13 @@ const Hero = (): JSX.Element => {
           </div>
         </div>
         <div>
-          <div className="relative min-h-[451px] md:min-h-[556px] w-72 md:w-96 md:pt-0">
-            <div className="absolute md:w-[78.28px] md:h-[78.28px] w-[61.90px] h-[61.90px]  left-[31px] top-0  bg-sky-500 bg-opacity-10 rounded-full" />
-            <div className="absolute w-[275px] h-[275px] md:w-[425.54px] md:h-[425.54px] left-[70.25px] top-[17.12px]  bg-sky-500 bg-opacity-10 rounded-full" />
-            <div className=" absolute top-[60.44px] ">
+          <div className="relative min-h-[451px] md:min-h-[556px] w-96 md:w-96 md:pt-0">
+            <div className="absolute md:w-[78.28px] md:h-[78.28px] w-[61.90px] h-[61.90px] left-[35px] top-0  bg-sky-500 bg-opacity-10 rounded-full" />
+            <div className="absolute w-[240px] h-[240px] md:w-[270px] md:h-[270px] top-[45px] left-[125px] md:left-[115px] bg-sky-500 bg-opacity-10 rounded-full" />
+            <div className=" absolute top-[60.44px] right-[45.25px]">
               <img
-                className="w-[598.35px] md:w-[756.69px] rounded-full"
-                src="/src/assets/study-group-african-people 1.png"
+                className="w-[300px] md:w-[556.69px] rounded-full"
+                src="/__experimental/assets/study-group-african-people 1.png"
               />
             </div>
           </div>
