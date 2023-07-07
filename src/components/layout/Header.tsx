@@ -1,5 +1,6 @@
 import { useState } from "react";
 import DropdownMenu from "../ui/DropdownMenu";
+import Button from "../ui/Button";
 
 const TopNav = (): JSX.Element => {
   const [open, setOpen] = useState(false);
@@ -17,20 +18,15 @@ const TopNav = (): JSX.Element => {
           <a href="#" className="text-base md:text-lg font-medium text-blue-950 hover:text-blue-700">
             Home
           </a>
-          <a href="#" className="text-base md:text-lg font-medium text-gray-600 hover:text-gray-800">
+          <a href="#" className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700">
             About
           </a>
-          <a href="#" className="text-base md:text-lg font-medium text-gray-600 hover:text-gray-800">
+          <a href="#" className="text-base md:text-lg font-medium text-gray-600 hover:text-blue-700">
             Meet the team
           </a>
         </div>
         <div className="items-center hidden lg:flex">
-          <label
-            className="w-[200px] h-11 px-5 py-2.5 rounded border border-blue-950 text-blue-950 text-[18px] font-medium hover:bg-blue-950 hover:text-white justify-center items-center gap-2.5 inline-flex"
-            htmlFor="authentication"
-          >
-            Access resources
-          </label>
+          <Button className="w-[200px] h-11 px-5 py-2.5 rounded border border-blue-950 text-blue-950 text-[18px] font-medium hover:bg-blue-950 hover:text-white justify-center items-center gap-2.5 inline-flex" />
         </div>
         <div className="lg:hidden">
           <button onClick={() => setOpen(!open)} className="inline-flex">

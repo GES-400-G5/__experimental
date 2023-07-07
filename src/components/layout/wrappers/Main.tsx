@@ -20,7 +20,7 @@ const Main = ({ children }: PropsWithChildren) => {
         if (location.pathname !== "/__experimental/app/" && id && regex.test(id)) navigate(to);
         break;
       default:
-        if (location.pathname !== "/__experimental/" && location.pathname !== to) navigate(to);
+        if (location.pathname == "/__experimental/app/" && location.pathname !== to) navigate(to);
         break;
     }
   };
