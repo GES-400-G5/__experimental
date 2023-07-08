@@ -15,7 +15,7 @@ const Breadcrumb = ({
     return text.replace(/\s+/g, " ");
   };
   return (
-    <div className="text-sm breadcrumbs w-full mb-10 bg-zinc-100 px-5 gap-6 md:text-[24px] md:h-16 justify-start items-center inline-flex satoshi-medium">
+    <div className="text-sm breadcrumbs w-full my-10 bg-zinc-100 px-5 gap-6 md:text-[24px] md:h-16 justify-start items-center inline-flex satoshi-medium">
       <ul>
         {normalize(deeplink)
           .split(" ")
