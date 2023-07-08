@@ -3,7 +3,7 @@ import TopNav from "../Header";
 import Footer from "../Footer";
 import Modal from "../../ui/Modal";
 import Form from "../../ui/Form";
-import { sessionStore, useStore } from "../../../session/store";
+import { sessionStore } from "../../../session/store";
 import { useLocation, useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 import { regex } from "../../ui/Form";
@@ -13,28 +13,10 @@ const Main = ({ children }: PropsWithChildren) => {
   const location = useLocation();
   const navigate = useNavigate();
 
-  const id = useStore(sessionStore, (state) => state.id);
-
-  const reRoute = (to: string) => {
-    switch (to) {
-      case "/__experimental/app":
-        if (location.pathname !== "/__experimental/app/" && id && regex.test(id)) navigate(to);
-        break;
-      default:
-        if (location.pathname == "/__experimental/app/" && location.pathname !== to) navigate(to);
-        break;
-    }
-  };
+  const id = sessionStore((state) => state.id);
 
   const validate = async () => {
-    switch (id !== "") {
-      case true:
-        reRoute("/__experimental/app");
-        break;
-      default:
-        reRoute("/__experimental/");
-        break;
-    }
+    if (location.pathname == "/app" && !regex.test(id)) navigate("/");
   };
 
   useEffect(() => {

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 
 const DropdownMenu = ({ close }: { close: Dispatch<SetStateAction<boolean>> }) => {
   return (
-    <div className="w-[263px] h-[394px] relative bg-white">
+    <div className="w-[263px] h-[394px] relative bg-white z-10">
       <div className="p-2.5 left-[200px] top-[24px] absolute justify-start items-center gap-2.5 inline-flex">
         <button className="w-[16px] h-4 relative" onClick={() => close(false)}>
           <svg

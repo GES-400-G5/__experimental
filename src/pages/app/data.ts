@@ -2,7 +2,7 @@ export const resources = ["LECTURE NOTES", "PAST QUESTIONS", "MATERIALS"];
 export const semesters = ["1st Semester", "2nd Semester"];
 const levels = [100, 200, 300, 400];
 
-export const semester = {
+export const data = {
   semester1: {
     100: {
       courses: [
@@ -15,7 +15,7 @@ export const semester = {
         "CHM 130.1 General Chemistry",
         "FSB 101.1 General Biology 1",
       ],
-      materials: [
+      resources: [
         {
           name: "GES 100.1",
           lecture_notes: "",
