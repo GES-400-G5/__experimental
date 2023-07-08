@@ -1,17 +1,24 @@
 import { sessionStore, useStore } from "../../session/store";
-import { useNavigate } from "react-router-dom";
+import { useNavigate, useLocation } from "react-router-dom";
 import { regex } from "./Form";
 
 const Button = ({ className }: { className: string }) => {
-  const id = useStore(sessionStore, (state) => state.id);
+  const store = useStore(sessionStore, (state) => state);
   const navigate = useNavigate();
+  const location = useLocation();
 
   return (
     <>
-      {id && regex.test(id) ? (
-        <button className={className} onClick={() => navigate("/__experimental/app/")}>
-          Go To Resources
-        </button>
+      {store?.id && regex.test(store.id) ? (
+        location.pathname == "/app" ? (
+          <button className={`btn btn-ghost capitalize ${className}`} onClick={() => store?.setId("")}>
+            Sign Out
+          </button>
+        ) : (
+          <button className={`btn btn-ghost capitalize ${className}`} onClick={() => navigate("app")}>
+            Go To Resources
+          </button>
+        )
       ) : (
         <label className={`btn btn-ghost capitalize ${className}`} htmlFor="authentication">
           Access resources
