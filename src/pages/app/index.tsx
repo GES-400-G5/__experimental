@@ -15,9 +15,9 @@ export type Folders = "semesters" | "levels" | "courses" | "resources" | undefin
 
 const AppPage = () => {
   const [folder, setFolder] = useState<Folders>("semesters");
-  const [semester, setSemester] = useState<string>();
-  const [level, setLevel] = useState<number>();
-  const [course, setCourse] = useState<string>();
+  const [semester, setSemester] = useState<string>("semester1");
+  const [level, setLevel] = useState<number>(100);
+  const [course, setCourse] = useState<number>(0);
   const [displayText, setDisplayText] = useState<IDisplayText>({
     semesters: {
       active: "",
@@ -30,7 +30,7 @@ const AppPage = () => {
       body: "Kindly select your respective level to view what we have for you.",
     },
     courses: { active: "", main: "", body: "Select a course from the list." },
-    resources: { active: "", main: "GES100.1", body: "Goodluck to you. Select from the options below" },
+    resources: { active: "", main: "", body: "Goodluck to you. Select from the options below" },
   });
 
   const handleSetDisplayText = (text: string, folder: Folders, additionalTxt?: string) => {
@@ -44,7 +44,7 @@ const AppPage = () => {
     <Main>
       <div className="w-full py-16 px-8">
         <div className="flex justify-center flex-col w-full py-16 max-w-[1093px] mx-auto">
-          <div className="md:w-[1020px] w-full h-[124px] flex-col justify-start items-start gap-5 inline-flex mb-20">
+          <div className="md:w-[1020px] w-full h-full flex-col justify-start items-start gap-5 inline-flex mb-5 md:mb-10">
             <div className="self-stretch justify-start items-center gap-2.5 inline-flex">
               <div className="grow shrink basis-0 text-blue-950 text-[46px] satoshi-bold leading-10">
                 {folder && displayText[folder].main}
@@ -70,7 +70,7 @@ const AppPage = () => {
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 satoshi-medium">
               <button
                 onClick={() => {
-                  handleSetDisplayText("Semester", "semesters");
+                  handleSetDisplayText("Semester-1", "semesters");
                   setSemester("semester1");
                 }}
               >
@@ -78,7 +78,7 @@ const AppPage = () => {
               </button>
               <button
                 onClick={() => {
-                  handleSetDisplayText("Semester", "semesters");
+                  handleSetDisplayText("Semester-2", "semesters");
                   setSemester("semester2");
                 }}
               >
@@ -125,26 +125,46 @@ const AppPage = () => {
           {folder == "resources" && (
             <div className="w-full grid grid-cols-1 md:grid-cols-2 gap-10 satoshi-medium">
               <button>
-                <Card type="large" text="LECTURE NOTES" leaf={true} link="#" />
+                <Card
+                  type="large"
+                  text="LECTURE NOTES"
+                  leaf={true}
+                  link={data[semester][level].resources[course].lecture_notes || ""}
+                />
               </button>
               <button>
-                <Card type="large" text="MATERIALS" leaf={true} link="#" />
+                <Card
+                  type="large"
+                  text="MATERIALS"
+                  leaf={true}
+                  link={data[semester][level].resources[course].materials || ""}
+                />
               </button>
               <button>
-                <Card type="large" text="PAST QUESTIONS" leaf={true} link="#" />
+                <Card
+                  type="large"
+                  text="PAST QUESTIONS"
+                  leaf={true}
+                  link={data[semester][level].resources[course].past_questions || ""}
+                />
               </button>
             </div>
           )}
           {folder == "courses" && (
             <div className="w-full grid grid-cols-1 gap-10 satoshi-medium">
-              <button
-                onClick={() => {
-                  handleSetDisplayText("GES-100", "resources", "GES100.1");
-                  setCourse("GES100.1");
-                }}
-              >
-                <Card type="thin" text="GES 100" leaf={false} link={setFolder} next="resources" />
-              </button>
+              {data[semester][level].resources.map((item, idx) => {
+                return (
+                  <button
+                    key={idx}
+                    onClick={() => {
+                      handleSetDisplayText(item.code, "resources", item.code);
+                      setCourse(idx);
+                    }}
+                  >
+                    <Card type="thin" text={item.title} leaf={false} link={setFolder} next="resources" />
+                  </button>
+                );
+              })}
             </div>
           )}
         </div>
