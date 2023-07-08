@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 const TopNav = (): JSX.Element => {
   const [open, setOpen] = useState(false);
   return (
-    <nav className="w-full px-8 py-2">
+    <nav className="w-full px-8 py-2 bg-[#fdfdfd]">
       <div className="max-w-[1093px] mx-auto  flex justify-between items-center">
         <div className="flex items-center">
           <img

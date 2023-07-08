@@ -9,6 +9,7 @@ import {
 import Landing from "../pages";
 import About from "../pages/about";
 import Team from "../pages/team";
+import AppPage from "../pages/app";
 
 // const router = createBrowserRouter(
 //   createRoutesFromElements(
@@ -28,6 +29,7 @@ export const RouteProvider = () => {
         <Route path="/" element={<Landing />} />
         <Route path="/about" element={<About />} />
         <Route path="/team" element={<Team />} />
+        <Route path="/app" element={<AppPage />} />
       </Routes>
     </BrowserRouter>
   );
