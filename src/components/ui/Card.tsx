@@ -50,7 +50,7 @@ const Card = ({ type, text, leaf, link, next }: ICard) => {
               <img src="/icons/icons8-files 1.svg" />
             </div>
             <div className="grow shrink basis-0 h-[52px] py-2.5 justify-start items-center gap-2.5 flex">
-              <div className="text-neutral-600 text-[24px] satoshi-medium">{text}</div>
+              <div className="text-neutral-600 text-start text-[16px] md:text-[24px] satoshi-medium">{text}</div>
             </div>
           </div>
         </label>
