@@ -18,6 +18,7 @@ const Card = ({ type, text, leaf, link, next }: ICard) => {
         leaf ? (
           <a
             href={link as string}
+            target="_blank"
             className="w-full max-w-[536px] md:max-h-[299px] max-h-[200px] px-[15px] py-5 bg-sky-400 bg-opacity-5 rounded-2xl border border-neutral-600 hover:border-sky-400 flex-col justify-start items-start gap-[10px] md:gap-[70px] inline-flex"
           >
             <div className="max-w-[100px] max-h-[100px] relative rounded-2xl">
