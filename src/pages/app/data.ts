@@ -17,6 +17,7 @@ export const data: {
           lecture_notes: "https://drive.google.com/drive/folders/1MKJ1eL_5J7PMbEbqpjhauUNurm-oeTKd",
           materials: "https://drive.google.com/drive/folders/1mCv9Sty_HnPPmsJkJRUWD1lpn4hk8b66",
           past_questions: "https://drive.google.com/drive/folders/1ZUjS0-Mlv-qwFbA3xuZv-e2AuWu6tQ8G",
+         
         },
         {
           name: "GES 102",
@@ -25,6 +26,7 @@ export const data: {
           lecture_notes: "https://drive.google.com/drive/folders/1g8LYKJU4ZiCqJ2PeA7RenDPlHiLwx1He",
           materials: "https://drive.google.com/drive/folders/1mzmBUitesSFKOYDTkbEjTFevaD44LFsv",
           past_questions: "https://drive.google.com/drive/folders/19SAfZmLIBHMwSRMYGL8BlQqv1S5zqr2z",
+          
         },
         {
           name: "MTH 110",
@@ -33,6 +35,7 @@ export const data: {
           lecture_notes: "https://drive.google.com/drive/folders/1KrETBHYXPxqn-0T1twKvisOpxs5guXMA",
           materials: "https://drive.google.com/drive/folders/1RGvlg2T5CF33eIKY1s2cWIFZlQlHJJkc",
           past_questions: "https://drive.google.com/drive/folders/1h2EQROhbM7OpQ3WiP6PnW4DR2ssykJoN",
+        
         },
         {
           name: "MTH 120",
@@ -41,6 +44,7 @@ export const data: {
           lecture_notes: "https://drive.google.com/drive/folders/1f4a1q6aaI-2SnFgTSpYe08ZvKxhSmqsJ",
           materials: "https://drive.google.com/drive/folders/1rZdE6bd0BH8d_wQkbUVPJgHA0jsQZYVk",
           past_questions: "https://drive.google.com/drive/folders/17NH5GWvpn1BbTPyq9o0PkXxp_PvGAGHv",
+         
         },
         {
           name: "PHY 101",
@@ -49,6 +53,7 @@ export const data: {
           lecture_notes: "https://drive.google.com/drive/folders/12b9hz87pbxEZ4p-VDXNTj6ao9gxe6Uqs",
           materials: "https://drive.google.com/drive/folders/1yAGvhwC97G9-2hKle-BqUEywmLIpnTXt",
           past_questions: "https://drive.google.com/drive/folders/1gRndl6oyHgP1mhGt5IerjVeYMYJBnKxJ",
+         
         },
         {
           name: "CSC 180",
@@ -57,6 +62,7 @@ export const data: {
           lecture_notes: "https://drive.google.com/drive/folders/1YfVj2_1zNNqwFRt636sfAViEGzRUAFO6",
           materials: "https://drive.google.com/drive/folders/1-q6A34ZiBOBUmUpFDd0IwIHHEcs6ZWvJ",
           past_questions: "https://drive.google.com/drive/folders/1scQvs1yGwB3eG9pGco9SLHhv4armilQu",
+          
         },
         {
           name: "CHM 130",
